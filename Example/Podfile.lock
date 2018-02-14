@@ -1,0 +1,16 @@
+PODS:
+  - FullMaterialLoader (0.1.0)
+
+DEPENDENCIES:
+  - FullMaterialLoader (from `../`)
+
+EXTERNAL SOURCES:
+  FullMaterialLoader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FullMaterialLoader: 04402ff84a523e30bebcd1a0da5a18cfcfd9c89e
+
+PODFILE CHECKSUM: c9410890431ddd3aec2af51233dbb496b591d89d
+
+COCOAPODS: 1.3.1

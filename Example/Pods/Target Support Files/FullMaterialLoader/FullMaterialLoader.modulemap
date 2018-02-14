@@ -1,0 +1,6 @@
+framework module FullMaterialLoader {
+  umbrella header "FullMaterialLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

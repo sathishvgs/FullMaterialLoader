@@ -1,0 +1,22 @@
+{
+  "name": "FullMaterialLoader",
+  "version": "0.1.0",
+  "summary": "A short description of FullMaterialLoader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vgsathish1995@gmail.com/FullMaterialLoader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vgsathish1995@gmail.com": "vgsathish1995@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vgsathish1995@gmail.com/FullMaterialLoader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FullMaterialLoader/Classes/**/*"
+}
