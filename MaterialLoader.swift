@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+
 class MaterialLoadingIndicator: UIView {
     
     let MinStrokeLength: CGFloat = 0.05
