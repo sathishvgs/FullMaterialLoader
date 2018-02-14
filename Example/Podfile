@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FullMaterialLoader_Example' do
+  pod 'FullMaterialLoader', :path => '../'
+
+  target 'FullMaterialLoader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
