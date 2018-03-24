@@ -30,9 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FullMaterialLoader/Classes/**/*'
-  
-  # s.resource_bundles = {
+    #s.source_files = 'FullMaterialLoader/Classes/**/*'
+
+   s.source_files = 'Classes/*.{h,m,swift}'
+
+# s.resource_bundles = {
   #   'FullMaterialLoader' => ['FullMaterialLoader/Assets/*.png']
   # }
 
