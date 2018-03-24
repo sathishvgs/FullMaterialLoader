@@ -22,13 +22,13 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/vgsathish1995@gmail.com/FullMaterialLoader'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://media.giphy.com/media/fo5xR0VTmqOOFHwaxA/giphy.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vgsathish1995@gmail.com' => 'vgsathish1995@gmail.com' }
   s.source           = { :git => 'https://github.com/vgsathish1995@gmail.com/FullMaterialLoader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'FullMaterialLoader/Classes/**/*'
   

@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+This pod requires a deployment target of iOS 9.0 or greater
+
 ## Installation
 
 FullMaterialLoader is available through [CocoaPods](http://cocoapods.org). To install
@@ -18,6 +20,14 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'FullMaterialLoader'
+```
+## Usage
+
+```
+ var indicator = MaterialLoadingIndicator(frame: CGRect(x:0, y:0, width: 25, height: 25))
+ indicator.center = self.view.center
+ self.view.addSubview(indicator)
+ indicator.startAnimating()
 ```
 
 ## Author

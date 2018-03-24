@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		47BBDFD1BDBC35FE212AFFCB /* Pods-FullMaterialLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullMaterialLoader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullMaterialLoader_Example/Pods-FullMaterialLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		532292B5652AA2ADE65536B9 /* Pods_FullMaterialLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullMaterialLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5660AB8E3E83784FFEABD947 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5660AB8E3E83784FFEABD947 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FullMaterialLoader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullMaterialLoader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		7E5FEB8A78B1F4543FFDFCCC /* Pods-FullMaterialLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullMaterialLoader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullMaterialLoader_Tests/Pods-FullMaterialLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B11E6D383DBF713438C0ACCD /* Pods-FullMaterialLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullMaterialLoader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullMaterialLoader_Tests/Pods-FullMaterialLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BE697C210D6928D82D8B683F /* Pods-FullMaterialLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullMaterialLoader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullMaterialLoader_Example/Pods-FullMaterialLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C80358D2EEF30433B7BE7EB8 /* FullMaterialLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FullMaterialLoader.podspec; path = ../FullMaterialLoader.podspec; sourceTree = "<group>"; };
-		EA3F88EB15A49C54AB9CE261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C80358D2EEF30433B7BE7EB8 /* FullMaterialLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FullMaterialLoader.podspec; path = ../FullMaterialLoader.podspec; sourceTree = "<group>"; };
+		EA3F88EB15A49C54AB9CE261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -518,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FullMaterialLoader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -533,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FullMaterialLoader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
