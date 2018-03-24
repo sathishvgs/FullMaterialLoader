@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     func configViews() {
         
-        indicator = MaterialLoadingIndicator(frame: CGRect(x:0, y:0, width: 25, height: 25))
+        indicator = MaterialLoadingIndicator(frame: CGRect(x:0, y:0, width: 30, height: 30))
         indicator.indicatorColor = [UIColor.red.cgColor, UIColor.blue.cgColor]
         indicator.center = self.view.center
         self.view.addSubview(indicator)
