@@ -8,20 +8,21 @@
 import Foundation
 import UIKit
 
-class MaterialLoadingIndicator: UIView {
+
+open class MaterialLoadingIndicator: UIView {
     
-    let MinStrokeLength: CGFloat = 0.05
-    let MaxStrokeLength: CGFloat = 0.7
-    let circleShapeLayer = CAShapeLayer()
-    let indicatorColor: [CGColor] = [UIColor.white.cgColor]
+    public var MinStrokeLength: CGFloat = 0.05
+    public var MaxStrokeLength: CGFloat = 0.7
+    public var circleShapeLayer = CAShapeLayer()
+    public var indicatorColor: [CGColor] = [UIColor.white.cgColor]
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = UIColor.clear
         initShapeLayer()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -47,7 +48,7 @@ class MaterialLoadingIndicator: UIView {
         layer.addSublayer(circleShapeLayer)
     }
     
-    func startAnimating() {
+    open func startAnimating() {
         if layer.animation(forKey: "rotation") == nil {
             startColorAnimation()
             startStrokeAnimation()
@@ -115,7 +116,7 @@ class MaterialLoadingIndicator: UIView {
         CATransaction.commit()
     }
     
-    func stopAnimating() {
+    open func stopAnimating() {
         circleShapeLayer.removeAllAnimations()
         layer.removeAllAnimations()
         circleShapeLayer.transform = CATransform3DIdentity
