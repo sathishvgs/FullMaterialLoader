@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FullMaterialLoader'
-  s.version          = '0.1.3'
+  s.version          = '0.2.0'
   s.summary          = 'FullMaterialLoader is simple library to show and animate the Material Loader'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-    #s.source_files = 'FullMaterialLoader/Classes/**/*'
+  s.source_files = 'FullMaterialLoader/Classes/**/*'
 
-   s.source_files = 'Classes/*.{h,m,swift}'
 
 # s.resource_bundles = {
   #   'FullMaterialLoader' => ['FullMaterialLoader/Assets/*.png']
