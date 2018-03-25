@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
     #s.source_files = 'FullMaterialLoader/Classes/**/*'
 
-   s.source_files = 'Classes/*.{h,m,swift}'
+   s.source_files = 'Classes/*.{h,m}'
 
 # s.resource_bundles = {
   #   'FullMaterialLoader' => ['FullMaterialLoader/Assets/*.png']
