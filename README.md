@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![fullmaterial](https://user-images.githubusercontent.com/26645075/37915520-57eafb10-3137-11e8-8c54-5e10272bc882.gif)
+
 ## Requirements
 
 This pod requires a deployment target of iOS 9.0 or greater
