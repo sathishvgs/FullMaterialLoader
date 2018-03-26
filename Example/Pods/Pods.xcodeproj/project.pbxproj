@@ -13,7 +13,7 @@
 		97A72B519A458E4F54B15B380B4375CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AC2928FF0D756C505E4C6E8FE67470A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B37530E36192C7624852DA411C8457B2 /* Pods-FullMaterialLoader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E828EDC7D7ED34B2245AA8E75532BFB0 /* Pods-FullMaterialLoader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B827857020347CB700AF5DF0 /* MaterialLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B827856F20347CB700AF5DF0 /* MaterialLoader.swift */; };
+		B874D99C206903A60055BDF0 /* MaterialLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B874D99B206903A60055BDF0 /* MaterialLoader.swift */; };
 		CC5B8DD0A00623DBC77300355B490427 /* Pods-FullMaterialLoader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FBAF0166DAF8E6231B7BFC7EA2BEF9 /* Pods-FullMaterialLoader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1C42E62A79B8905E8992D9DBCC8AFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EC3BA7E3904ACCE8E15AF9EA9AC6E21E /* Pods-FullMaterialLoader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E659951BA72AF2A33C1F669CFD62FC /* Pods-FullMaterialLoader_Tests-dummy.m */; };
@@ -55,7 +55,7 @@
 		9C5A9002CFC089336A7432336B21460E /* Pods_FullMaterialLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullMaterialLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5D034FA116098753C95975670F7C98 /* FullMaterialLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FullMaterialLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12AB447B94856408A5171D16953AE9E /* Pods-FullMaterialLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FullMaterialLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B827856F20347CB700AF5DF0 /* MaterialLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialLoader.swift; sourceTree = "<group>"; };
+		B874D99B206903A60055BDF0 /* MaterialLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialLoader.swift; path = FullMaterialLoader/Classes/MaterialLoader.swift; sourceTree = "<group>"; };
 		C2FBAF0166DAF8E6231B7BFC7EA2BEF9 /* Pods-FullMaterialLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FullMaterialLoader_Example-umbrella.h"; sourceTree = "<group>"; };
 		CBF8A19FDDF9C87D31307D546CDB4778 /* Pods-FullMaterialLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FullMaterialLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4E659951BA72AF2A33C1F669CFD62FC /* Pods-FullMaterialLoader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FullMaterialLoader_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		DB2652363F9A5D0BFC241EE9535B071B /* FullMaterialLoader */ = {
 			isa = PBXGroup;
 			children = (
-				B827856F20347CB700AF5DF0 /* MaterialLoader.swift */,
+				B874D99B206903A60055BDF0 /* MaterialLoader.swift */,
 				70C696EDE87F7CB58EE5E74CD0B7B30C /* Support Files */,
 			);
 			name = FullMaterialLoader;
@@ -322,7 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4681249AB9923BC1AE79A97540105FDA /* FullMaterialLoader-dummy.m in Sources */,
-				B827857020347CB700AF5DF0 /* MaterialLoader.swift in Sources */,
+				B874D99C206903A60055BDF0 /* MaterialLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
