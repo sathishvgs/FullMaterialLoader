@@ -1,5 +1,5 @@
 PODS:
-  - FullMaterialLoader (0.2.2)
+  - FullMaterialLoader (0.2.3)
 
 DEPENDENCIES:
   - FullMaterialLoader (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FullMaterialLoader: 6c09e77bf374412a0ecfd443878936afd0443922
+  FullMaterialLoader: 5b90c2d719e8c7a668fa2e1b8ffb22db1fb32d33
 
 PODFILE CHECKSUM: c9410890431ddd3aec2af51233dbb496b591d89d
 

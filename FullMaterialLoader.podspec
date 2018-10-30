@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'FullMaterialLoader'
-s.version          = '0.2.2'
+s.version          = '0.2.3'
 s.swift_version    = '4.2'
 s.summary          = 'FullMaterialLoader is simple library to show and animate the Material Loader'
 s.homepage         = 'https://github.com/sathishvgs/FullMaterialLoader'
