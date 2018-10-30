@@ -28,5 +28,24 @@ class ViewController: UIViewController {
         self.view.addSubview(indicator)
         indicator.startAnimating()
     }
+    
+    // ************ Not Using *****************
+    @IBAction func startLoader(_ sender: Any) {
+        indicator.isHidden = false
+        indicator.startAnimating()
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3), execute: {
+
+            self.indicator.isHidden = true
+            self.indicator.stopAnimating()
+        })
+    }
+    
+    
+    @IBAction func stopLoader(_ sender: Any) {
+        indicator.stopAnimating()
+        indicator.isHidden = true
+    }
+
 }
 

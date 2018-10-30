@@ -1,16 +1,16 @@
 PODS:
-  - FullMaterialLoader (0.1.0)
+  - FullMaterialLoader (0.2.2)
 
 DEPENDENCIES:
   - FullMaterialLoader (from `../`)
 
 EXTERNAL SOURCES:
   FullMaterialLoader:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FullMaterialLoader: 04402ff84a523e30bebcd1a0da5a18cfcfd9c89e
+  FullMaterialLoader: 6c09e77bf374412a0ecfd443878936afd0443922
 
 PODFILE CHECKSUM: c9410890431ddd3aec2af51233dbb496b591d89d
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
