@@ -13,8 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-This pod requires a deployment target of iOS 9.0 or greater
-Supports - Swift 4.2
+This pod requires a deployment target of iOS 9.0 or greater.
 
 ## Installation
 
