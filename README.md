@@ -20,9 +20,15 @@ This pod requires a deployment target of iOS 9.0 or greater.
 FullMaterialLoader is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+For Swift 4 and above, use
 ```ruby
-pod 'FullMaterialLoader'
+pod 'FullMaterialLoader', ~> 0.2.3
 ```
+For lesser than Swift 4, use
+```ruby
+pod 'FullMaterialLoader', ~> 0.2.2
+```
+
 ## Usage
 
 ```
